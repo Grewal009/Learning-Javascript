@@ -57,3 +57,17 @@ const obj2 = {
 };
 
 obj2.x();
+
+// sharing method using call
+const student = {
+  name: "Aneel",
+  printName: function () {
+    console.log(this.name);
+  },
+};
+
+const student2 = {
+  name: "Singh",
+};
+student.printName(); //Aneel
+student.printName.call(student2); //Singh
