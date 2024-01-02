@@ -10,5 +10,12 @@ let printFullName = function (city, country) {
   );
 };
 
-printFullName.call(name, "Oslo", "Norway");
 // using call method we can do function borrowing.
+printFullName.call(name, "Oslo", "Norway"); //Aneel Grewal from Oslo, Norway
+
+// apply() method is similar to call() method but the only difference is that
+
+/* In call() first we specify reference to this and later we specify arguments to method separated by comma.
+But in apply() first we specify reference to this and later we specify an array that contains all the arguments to function.
+ */
+printFullName.apply(name, ["Oslo", "Norway"]); //Aneel Grewal from Oslo, Norway
