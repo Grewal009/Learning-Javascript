@@ -23,4 +23,4 @@
 - A new Execution Context is created inside **Global Execution Context**.
 - Now again this Execution Context is created in two phases i.e Memory Creation Phase and Code Exection Phase.
 
-When the program execution finished. Global Execution Context is also deleted. All the Execution Context are managed by **Call Stack**. Call Stack maintains the order of execution of Execution Contexts.
+When the program execution finished. Global Execution Context is also deleted. All the Execution Contexts are managed by **Call Stack**. Call Stack maintains the order of execution of Execution Contexts.
