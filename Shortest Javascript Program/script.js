@@ -1,0 +1,2 @@
+/* This empty file is a valid Javascript program.
+ */
